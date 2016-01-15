@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ShufflePuzzle/ViewController.swift"
+            timestampString = "474561716.263752"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "131"
+            endingLineNumber = "131"
+            landmarkName = "GridCell"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ShufflePuzzle.GridCell.label.setter : __ObjC.UILabel"
+                  moduleName = "ShufflePuzzle"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mika/projects/ios-course/ShufflePuzzle/ShufflePuzzle/ViewController.swift"
+                  timestampString = "474551893.434948"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ShufflePuzzle.GridCell.init (ShufflePuzzle.GridCell.Type)(frame : __C.CGRect) -&gt; ShufflePuzzle.GridCell"
+                  moduleName = "ShufflePuzzle"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mika/projects/ios-course/ShufflePuzzle/ShufflePuzzle/ViewController.swift"
+                  timestampString = "474551893.435094"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "74"
+                  endingLineNumber = "74"
+                  offsetFromSymbolStart = "54">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ShufflePuzzle.GridCell.init (ShufflePuzzle.GridCell.Type)(coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;ShufflePuzzle.GridCell&gt;"
+                  moduleName = "ShufflePuzzle"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mika/projects/ios-course/ShufflePuzzle/ShufflePuzzle/ViewController.swift"
+                  timestampString = "474551893.435224"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "74"
+                  endingLineNumber = "74"
+                  offsetFromSymbolStart = "19">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ShufflePuzzle.GridCell.label.materializeForSet : __ObjC.UILabel"
+                  moduleName = "ShufflePuzzle"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mika/projects/ios-course/ShufflePuzzle/ShufflePuzzle/ViewController.swift"
+                  timestampString = "474551893.435351"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "12">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
