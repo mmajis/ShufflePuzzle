@@ -1,0 +1,401 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		250B36AE1C490BCE00E9F975 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 250B36AD1C490BCE00E9F975 /* AppDelegate.swift */; };
+		250B36B01C490BCE00E9F975 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 250B36AF1C490BCE00E9F975 /* ViewController.swift */; };
+		250B36B31C490BCE00E9F975 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 250B36B11C490BCE00E9F975 /* Main.storyboard */; };
+		250B36B51C490BCE00E9F975 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 250B36B41C490BCE00E9F975 /* Assets.xcassets */; };
+		250B36B81C490BCE00E9F975 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 250B36B61C490BCE00E9F975 /* LaunchScreen.storyboard */; };
+		250B36C31C490BCE00E9F975 /* ShufflePuzzleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 250B36C21C490BCE00E9F975 /* ShufflePuzzleUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		250B36BF1C490BCE00E9F975 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 250B36A21C490BCE00E9F975 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 250B36A91C490BCE00E9F975;
+			remoteInfo = ShufflePuzzle;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		250B36AA1C490BCE00E9F975 /* ShufflePuzzle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShufflePuzzle.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		250B36AD1C490BCE00E9F975 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		250B36AF1C490BCE00E9F975 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		250B36B21C490BCE00E9F975 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		250B36B41C490BCE00E9F975 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		250B36B71C490BCE00E9F975 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		250B36B91C490BCE00E9F975 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		250B36BE1C490BCE00E9F975 /* ShufflePuzzleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShufflePuzzleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		250B36C21C490BCE00E9F975 /* ShufflePuzzleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShufflePuzzleUITests.swift; sourceTree = "<group>"; };
+		250B36C41C490BCE00E9F975 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		250B36A71C490BCE00E9F975 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		250B36BB1C490BCE00E9F975 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		250B36A11C490BCE00E9F975 = {
+			isa = PBXGroup;
+			children = (
+				250B36AC1C490BCE00E9F975 /* ShufflePuzzle */,
+				250B36C11C490BCE00E9F975 /* ShufflePuzzleUITests */,
+				250B36AB1C490BCE00E9F975 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		250B36AB1C490BCE00E9F975 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				250B36AA1C490BCE00E9F975 /* ShufflePuzzle.app */,
+				250B36BE1C490BCE00E9F975 /* ShufflePuzzleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		250B36AC1C490BCE00E9F975 /* ShufflePuzzle */ = {
+			isa = PBXGroup;
+			children = (
+				250B36AD1C490BCE00E9F975 /* AppDelegate.swift */,
+				250B36AF1C490BCE00E9F975 /* ViewController.swift */,
+				250B36B11C490BCE00E9F975 /* Main.storyboard */,
+				250B36B41C490BCE00E9F975 /* Assets.xcassets */,
+				250B36B61C490BCE00E9F975 /* LaunchScreen.storyboard */,
+				250B36B91C490BCE00E9F975 /* Info.plist */,
+			);
+			path = ShufflePuzzle;
+			sourceTree = "<group>";
+		};
+		250B36C11C490BCE00E9F975 /* ShufflePuzzleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				250B36C21C490BCE00E9F975 /* ShufflePuzzleUITests.swift */,
+				250B36C41C490BCE00E9F975 /* Info.plist */,
+			);
+			path = ShufflePuzzleUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		250B36A91C490BCE00E9F975 /* ShufflePuzzle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 250B36C71C490BCE00E9F975 /* Build configuration list for PBXNativeTarget "ShufflePuzzle" */;
+			buildPhases = (
+				250B36A61C490BCE00E9F975 /* Sources */,
+				250B36A71C490BCE00E9F975 /* Frameworks */,
+				250B36A81C490BCE00E9F975 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ShufflePuzzle;
+			productName = ShufflePuzzle;
+			productReference = 250B36AA1C490BCE00E9F975 /* ShufflePuzzle.app */;
+			productType = "com.apple.product-type.application";
+		};
+		250B36BD1C490BCE00E9F975 /* ShufflePuzzleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 250B36CA1C490BCE00E9F975 /* Build configuration list for PBXNativeTarget "ShufflePuzzleUITests" */;
+			buildPhases = (
+				250B36BA1C490BCE00E9F975 /* Sources */,
+				250B36BB1C490BCE00E9F975 /* Frameworks */,
+				250B36BC1C490BCE00E9F975 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				250B36C01C490BCE00E9F975 /* PBXTargetDependency */,
+			);
+			name = ShufflePuzzleUITests;
+			productName = ShufflePuzzleUITests;
+			productReference = 250B36BE1C490BCE00E9F975 /* ShufflePuzzleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		250B36A21C490BCE00E9F975 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Mika Majakorpi";
+				TargetAttributes = {
+					250B36A91C490BCE00E9F975 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					250B36BD1C490BCE00E9F975 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 250B36A91C490BCE00E9F975;
+					};
+				};
+			};
+			buildConfigurationList = 250B36A51C490BCE00E9F975 /* Build configuration list for PBXProject "ShufflePuzzle" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 250B36A11C490BCE00E9F975;
+			productRefGroup = 250B36AB1C490BCE00E9F975 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				250B36A91C490BCE00E9F975 /* ShufflePuzzle */,
+				250B36BD1C490BCE00E9F975 /* ShufflePuzzleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		250B36A81C490BCE00E9F975 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				250B36B81C490BCE00E9F975 /* LaunchScreen.storyboard in Resources */,
+				250B36B51C490BCE00E9F975 /* Assets.xcassets in Resources */,
+				250B36B31C490BCE00E9F975 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		250B36BC1C490BCE00E9F975 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		250B36A61C490BCE00E9F975 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				250B36B01C490BCE00E9F975 /* ViewController.swift in Sources */,
+				250B36AE1C490BCE00E9F975 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		250B36BA1C490BCE00E9F975 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				250B36C31C490BCE00E9F975 /* ShufflePuzzleUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		250B36C01C490BCE00E9F975 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 250B36A91C490BCE00E9F975 /* ShufflePuzzle */;
+			targetProxy = 250B36BF1C490BCE00E9F975 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		250B36B11C490BCE00E9F975 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				250B36B21C490BCE00E9F975 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		250B36B61C490BCE00E9F975 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				250B36B71C490BCE00E9F975 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		250B36C51C490BCE00E9F975 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		250B36C61C490BCE00E9F975 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		250B36C81C490BCE00E9F975 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ShufflePuzzle/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nitor.ShufflePuzzle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		250B36C91C490BCE00E9F975 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ShufflePuzzle/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nitor.ShufflePuzzle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		250B36CB1C490BCE00E9F975 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ShufflePuzzleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nitor.ShufflePuzzleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ShufflePuzzle;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		250B36CC1C490BCE00E9F975 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ShufflePuzzleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nitor.ShufflePuzzleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ShufflePuzzle;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		250B36A51C490BCE00E9F975 /* Build configuration list for PBXProject "ShufflePuzzle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				250B36C51C490BCE00E9F975 /* Debug */,
+				250B36C61C490BCE00E9F975 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		250B36C71C490BCE00E9F975 /* Build configuration list for PBXNativeTarget "ShufflePuzzle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				250B36C81C490BCE00E9F975 /* Debug */,
+				250B36C91C490BCE00E9F975 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		250B36CA1C490BCE00E9F975 /* Build configuration list for PBXNativeTarget "ShufflePuzzleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				250B36CB1C490BCE00E9F975 /* Debug */,
+				250B36CC1C490BCE00E9F975 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 250B36A21C490BCE00E9F975 /* Project object */;
+}
